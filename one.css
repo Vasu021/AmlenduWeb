@@ -1,0 +1,181 @@
+
+
+
+.nav-item{
+    margin-left: 20px;
+    
+}
+
+
+.navbar-brand{
+    color: aliceblue;
+    font-weight: 700;
+    
+}
+
+.nav-item a{
+    color: white;
+}
+
+.dropdown-menu a{
+    color: darkblue;    
+}
+
+.navbar{
+    background-color: black;
+}
+
+.img1{
+    max-width: 4%;
+    
+    
+}
+
+
+
+
+.pro-div{
+    border: solid;
+    border-radius: 5px;
+    border-color: black;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+.projects{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.card{
+    margin-bottom: 15px;
+}
+
+.about{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.about-title{
+    text-align: center;
+    font-size: 40px;
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 20px;
+    background-color:  black;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.about-image{
+    background-image: url("amlendu.png");
+    background-repeat: no-repeat;
+    height: 760px;
+    padding-left: 20px;
+    
+}
+
+.dow-Resume a{
+    display: inline-block;
+    color: black;
+    border: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.dow-Resume a:hover{
+    background: rgb(72, 194, 250);
+    box-shadow: 0 0 10px rgb(72, 194, 250), 0 0 40px rgb(72, 194, 250), 0 0 80px rgb(72, 194, 250);
+}
+.skills{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+
+.footer{
+    background-color: black;
+    border: solid;
+    border-color: black;
+}
+
+
+.blog-footer h4{
+    text-align: center;
+    color: white;
+}
+
+.blog-footer h5{
+    text-align: center;
+    color: white;
+    
+}
+
+.proText{
+    text-align: center;
+    font-size: 40px;
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color:  black;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.contact-div{
+    width: 80%;
+    margin: auto;
+}
+.contact-input{
+    margin-bottom: 3px;
+}
+.submit{
+    background: black;
+    color: aliceblue;
+    letter-spacing: 2px;
+    border-radius: 10px 0px 10px 0px;
+}
+
+
+
+
+
+
+.foot{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.footer-logo{
+    margin: auto;
+}
+.footer-logo a{
+    color: white;
+}
+.col a{
+    color: aliceblue;
+}
+
+
