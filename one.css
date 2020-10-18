@@ -1,4 +1,10 @@
-
+body{
+    background-image: url("body_back_test/body_back_3.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 
 
 .nav-item{
@@ -44,7 +50,13 @@
     margin-bottom: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: white;
+
+    background-image: url("body_back_test/body_back_3.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
 }
 .projects{
     width: 90%;
@@ -101,9 +113,16 @@
     background: rgb(72, 194, 250);
     box-shadow: 0 0 10px rgb(72, 194, 250), 0 0 40px rgb(72, 194, 250), 0 0 80px rgb(72, 194, 250);
 }
-.skills{
+.skills1{
     width: 80%;
     margin: auto;
+    
+    background-image: url("body_back_test/body_back_4.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
 }
 
 
@@ -140,6 +159,11 @@
     color: aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
+
+
+
 
 
 
