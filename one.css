@@ -126,6 +126,16 @@ body{
 }
 
 
+.thm1{
+    background: fixed greenyellow;
+    border-radius: 10px;
+    transition: 1s;
+}
+.thm1:hover{
+    font-size: 23px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
 
 
 
