@@ -378,15 +378,11 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 
 .hero h1 {
-  font-size: clamp(40px, 7.4vw, 70px);
-  line-height: 1.04;
-  letter-spacing: -0.026em;
+  font-size: clamp(40px, 7vw, 66px);
+  line-height: 1.06;
+  letter-spacing: -0.028em;
   margin: 0 0 18px;
-}
-.hero h1 .accent {
-  font-style: italic;
-  color: var(--accent-deep);
-  font-variation-settings: "SOFT" 20, "WONK" 1;
+  text-wrap: balance;
 }
 
 .hero-lede {
@@ -1094,8 +1090,6 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 
 @media (max-width: 600px) {
-  .hero h1 { text-wrap: balance; }
-  .hero h1 .br-wide { display: none; }
   .rank-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
