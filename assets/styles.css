@@ -176,6 +176,22 @@ ul { margin: 0; padding: 0; list-style: none; }
   margin: 0;
 }
 
+/* A section heading standing on its own, with no eyebrow above it: it keeps
+   the accent rule so the section still has the same anchor as the others. */
+.section-head h2.h2-rule {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.section-head h2.h2-rule::before {
+  content: "";
+  width: 26px;
+  height: 2px;
+  background: var(--accent);
+  opacity: 0.6;
+  flex: none;
+}
+
 .section-note {
   color: var(--ink-mute);
   font-size: 15px;

@@ -1,42 +1,77 @@
-# Amlendu Shekhar — portfolio
+<div align="center">
 
-Source for the portfolio at **<https://vasu021.github.io/AmlenduWeb/>**.
+# Amlendu Shekhar
 
-A static site: three files and two images, no build step, no dependencies to
-install. Open `index.html` in a browser and it works.
+**Software Engineer · MS Data Science @ RWTH Aachen · AWS Certified Solutions Architect**
 
-## Layout
+Aachen, Germany
 
-```
-index.html            the whole page
-404.html              not-found page
-assets/styles.css     one neutral stone palette, defined as custom properties
-assets/main.js        mobile nav, scroll-spy, project archive, copy-to-clipboard
-assets/portrait.jpg   profile photo (460px, with a 920px @2x)
-assets/favicon.svg
-Amlendu_s_Resume.pdf   linked from the nav and the contact block
-```
+[![Portfolio](https://img.shields.io/badge/portfolio-vasu021.github.io-2f6a5c?style=flat-square)](https://vasu021.github.io/AmlenduWeb/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-amlendu--shekhar-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amlendu-shekhar)
+[![GitHub](https://img.shields.io/badge/GitHub-Vasu021-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Vasu021)
+[![Email](https://img.shields.io/badge/email-amlendushekhar828-9a5a2c?style=flat-square)](mailto:amlendushekhar828@gmail.com)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-Vasu021-88cc14?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/Vasu021)
 
-## Editing
+</div>
 
-- **Colours** — every surface and ink tone is a custom property in the `:root`
-  block at the top of `assets/styles.css`. The palette is deliberately a single
-  neutral: no light/dark toggle.
-- **Projects** — the four featured cards are `.card` elements in
-  `#projects`; everything below the fold lives in `#archive-panel` as `.mini`
-  links. The toggle counts the cards itself, so adding one needs no JS change.
-- **Experience** — each role is an `<article class="job">` in the timeline.
-  Add `data-now="true"` to mark the current one.
+---
 
-## Running it locally
+> **This repo is the source of my portfolio site** — one static page, no
+> framework and no build step. Live at **<https://vasu021.github.io/AmlenduWeb/>**
+
+---
+
+## About me
+
+Four years of full-stack engineering, most recently at **trivago** in
+Düsseldorf. Now a scientific assistant at **RWTH Aachen**, working on
+object-centric process mining while finishing an MS in Data Science.
+
+I like the whole span of a problem — the data model underneath, the
+architecture in the middle, and the interface people actually touch.
+
+## Experience
+
+| | Role | When |
+|---|---|---|
+| **RWTH Aachen** | Scientific Assistant (HiWi) | Jun 2026 — present |
+| **trivago** | Software Engineer (Working Student) | Nov 2024 — Apr 2026 |
+| **Gemini Solutions** | Software Engineer L1 | Aug 2021 — Apr 2024 |
+| **AptCoder** | Web Designer | Oct 2020 — Jan 2021 |
+
+## Projects
+
+| Project | What it is | Built with |
+|---|---|---|
+| **[RoadReady](https://github.com/Vasu021/roadready.online)** | A free course for the German driving theory test — 92 lessons, 289 questions, 136 signs, 13 languages | TypeScript, React |
+| **[Lamplight](https://lamplight.ink/)** | A one-page PDF reader that redraws papers in calm, low-glare colours | pdf.js, vanilla JS, zero deps |
+| **[Car Price Prediction](https://indigo-altar-308108.uc.r.appspot.com/)** | Resale-price predictor for the Indian used-car market | Python, Flask, scikit-learn, GCP |
+| **[Friday](https://github.com/Vasu021/Friday)** | A macOS AI screen guide that points at and draws on your screen | Electron, Node.js, vision LLMs |
+
+## Toolkit
+
+| | |
+|---|---|
+| **Languages** | TypeScript · Python · C# · JavaScript · Java · SQL |
+| **Frameworks** | React · Node.js · .NET · Angular · Django · Flask |
+| **Cloud** | AWS *(SAA certified)* · Azure · GCP |
+| **Security** | OWASP Top 10 · Kali · Burp Suite · nmap · Wireshark |
+
+## Running this site locally
 
 ```bash
 python3 -m http.server 8000
-# then open http://localhost:8000
+# open http://localhost:8000
 ```
 
-## Notes
+`index.html` is the whole page. `assets/styles.css` holds the palette as
+custom properties at the top; `assets/main.js` handles the nav, scroll-spy and
+project archive.
 
-- The page works with JavaScript disabled: the nav falls back to an inline row
-  and nothing is hidden behind a scroll animation.
-- Fonts come from Google Fonts (Fraunces + Inter) with full system fallbacks.
+<div align="center">
+
+---
+
+Built and designed by me, in Aachen.
+
+</div>
