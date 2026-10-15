@@ -224,29 +224,18 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 
 .brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
   font-family: var(--serif);
-  font-size: 17px;
+  font-size: 15.5px;
   font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
   color: var(--ink);
   text-decoration: none;
   margin-right: auto;
   flex: none;
+  transition: color 0.16s ease;
 }
-.brand-mark {
-  width: 30px; height: 30px;
-  flex: none;
-  display: grid;
-  place-items: center;
-  border-radius: 9px;
-  background: var(--accent-deep);
-  color: var(--stone-100);
-  font-size: 14px;
-  letter-spacing: 0.02em;
-  box-shadow: var(--shadow-sm);
-}
+.brand:hover { color: var(--accent-deep); }
 
 .nav-links {
   display: flex;
