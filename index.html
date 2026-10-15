@@ -2,423 +2,836 @@
 <html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169343252-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        gtag('config', 'UA-169343252-1');
-    </script>
+  <title>Amlendu Shekhar — Software Engineer &amp; Data Science MS</title>
+  <meta name="description"
+    content="Amlendu Shekhar — software engineer in Aachen, Germany. MS Data Science at RWTH Aachen, ex-trivago, AWS Certified Solutions Architect. Full-stack TypeScript, React, .NET, machine learning and security.">
+  <meta name="author" content="Amlendu Shekhar">
+  <meta name="theme-color" content="#d4d0c4">
+  <link rel="canonical" href="https://vasu021.github.io/AmlenduWeb/">
 
-    <link rel="stylesheet" type="text/css" href="one.css">
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Amlendu Shekhar — Software Engineer &amp; Data Science MS">
+  <meta property="og:description"
+    content="Software engineer in Aachen, Germany. MS Data Science at RWTH Aachen, ex-trivago, AWS Certified Solutions Architect.">
+  <meta property="og:url" content="https://vasu021.github.io/AmlenduWeb/">
+  <meta property="og:image" content="https://vasu021.github.io/AmlenduWeb/assets/portrait@2x.jpg">
+  <meta name="twitter:card" content="summary">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/portrait.jpg">
 
-    <title>Amlendu Shekhar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400..650&display=swap">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Amlendu Shekhar",
+    "url": "https://vasu021.github.io/AmlenduWeb/",
+    "image": "https://vasu021.github.io/AmlenduWeb/assets/portrait@2x.jpg",
+    "email": "mailto:amlendushekhar828@gmail.com",
+    "jobTitle": "Software Engineer",
+    "address": { "@type": "PostalAddress", "addressLocality": "Aachen", "addressCountry": "DE" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "RWTH Aachen University" },
+      { "@type": "CollegeOrUniversity", "name": "Dr. A.P.J. Abdul Kalam Technical University (AKTU)" }
+    ],
+    "knowsAbout": ["Software Architecture", "Data Science", "Machine Learning", "Cybersecurity", "TypeScript", "React", "Python", "C#"],
+    "sameAs": [
+      "https://github.com/Vasu021",
+      "https://www.linkedin.com/in/amlendu-shekhar",
+      "https://tryhackme.com/p/Vasu021",
+      "https://leetcode.com/u/Vasu021/",
+      "https://www.hackerrank.com/profile/CaptainShekhar"
+    ]
+  }
+  </script>
 </head>
 
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    <nav class="navbar navbar-expand-lg navbar-white">
+  <!-- ===================================================== nav ======== -->
+  <header class="nav" id="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">AS</span>
+        <span>Amlendu Shekhar</span>
+      </a>
 
-        <img src="i1.png" width="50" height="50" class="d-inline-block align-top" alt="" loading="lazy">
-        <a class="navbar-brand" href="#">@Shekhar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <img class="navbar-toggler-icon" src="menu-icon.png" width="45" height="45" alt="">
+      <nav id="nav-links" class="nav-links" aria-label="Sections">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#credentials">Security &amp; Cloud</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-resume" href="Amlendu_s_Resume.pdf" target="_blank" rel="noopener">Résumé</a>
+      </nav>
 
+      <a class="btn btn-primary btn-sm nav-cta" href="Amlendu_s_Resume.pdf" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+          <polyline points="7 10 12 15 17 10" />
+          <line x1="12" y1="15" x2="12" y2="3" />
+        </svg>
+        Résumé
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links"
+        aria-label="Toggle menu"><span></span></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <span id="top"></span>
+
+    <!-- ==================================================== hero ====== -->
+    <section class="hero wrap">
+      <div class="hero-grid">
+        <div>
+          <p class="hero-status">
+            <span class="pulse" aria-hidden="true"></span>
+            Aachen, Germany · open to working-student &amp; graduate roles
+          </p>
+
+          <h1>I build software that <br class="br-wide"><span class="accent">teaches, measures</span> <br class="br-wide">and holds up.</h1>
+
+          <p class="hero-lede">
+            Software engineer with four years across full-stack product teams — most recently at
+            <strong>trivago</strong>, now a scientific assistant at <strong>RWTH Aachen</strong> while
+            finishing an MS in Data Science.
+          </p>
+          <p class="hero-sub">
+            I like the whole span of a problem: the data model underneath, the architecture in the middle,
+            and the interface people actually touch. AWS Certified Solutions Architect, with a long-running
+            habit of breaking things on purpose to learn how they hold together.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M3 7h18M3 12h18M3 17h12" />
+              </svg>
+              See the work
+            </a>
+            <a class="btn btn-ghost" href="https://github.com/Vasu021" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.3-5.25-1.28-5.25-5.72 0-1.26.45-2.3 1.2-3.11-.12-.3-.52-1.49.11-3.1 0 0 .97-.31 3.18 1.19a11 11 0 0 1 5.8 0c2.2-1.5 3.17-1.19 3.17-1.19.63 1.61.23 2.8.12 3.1.75.81 1.2 1.85 1.2 3.11 0 4.45-2.7 5.42-5.27 5.71.41.36.78 1.07.78 2.16v3.2c0 .31.2.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z" />
+              </svg>
+              GitHub
+            </a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/amlendu-shekhar" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm6 0h3.8v1.64h.05a4.17 4.17 0 0 1 3.75-2.06c4.01 0 4.75 2.64 4.75 6.07V21h-4v-5.5c0-1.31-.02-3-1.83-3-1.83 0-2.11 1.43-2.11 2.9V21H9V9Z" />
+              </svg>
+              LinkedIn
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              Aachen, Germany
+            </span>
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 10 12 5 2 10l10 5 10-5Z" />
+                <path d="M6 12v5c0 1.5 3 3 6 3s6-1.5 6-3v-5" />
+              </svg>
+              MS Data Science, RWTH Aachen
+            </span>
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 2 4 6v6c0 5 3.4 9.4 8 10 4.6-.6 8-5 8-10V6l-8-4Z" />
+                <path d="m9 12 2 2 4-4" />
+              </svg>
+              AWS Solutions Architect – Associate
+            </span>
+          </div>
+        </div>
+
+        <figure class="portrait-frame">
+          <img src="assets/portrait.jpg" srcset="assets/portrait.jpg 460w, assets/portrait@2x.jpg 920w"
+            sizes="(max-width: 860px) 164px, 260px" width="460" height="460"
+            alt="Portrait of Amlendu Shekhar" fetchpriority="high">
+        </figure>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><b>4 yrs</b><span>professional software engineering across three countries' teams</span></div>
+        <div class="stat"><b>AWS SAA</b><span>Certified Solutions Architect – Associate, valid to 2027</span></div>
+        <div class="stat"><b>44</b><span>TryHackMe machines pwned · peak rank 122 in India</span></div>
+        <div class="stat"><b>150+</b><span>LeetCode problems solved · 6★ on HackerRank</span></div>
+      </div>
+    </section>
+
+    <!-- =================================================== about ====== -->
+    <section class="section wrap reveal" id="about">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>Engineer first, perpetual student second.</h2>
+        </div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-body">
+          <p>
+            I started out as a .NET developer in Gurugram, moved to Germany, and spent a year and a half at
+            trivago building and maintaining the administration platform that advertisers and
+            accommodations run on — React and TypeScript on top of a Node and GraphQL layer, with Vitest
+            coverage on everything I shipped and SOX-compliant review on everything I touched.
+          </p>
+          <p>
+            Today I am a scientific assistant at RWTH Aachen's process-mining group, working on
+            <strong>ToTEM</strong>, a Temporal Object-Type Miner for object-centric event logs. I implemented
+            its Object-Centric Causal Nets: you point the tool at an OCEL and get back an interactive,
+            auto-laid-out net you can actually explore.
+          </p>
+          <p>
+            The thread running through all of it is wanting to understand the layer below the one I am working
+            on. That is what pulled me into data science, into AWS architecture, and into security — where the
+            fastest way to learn how a system really behaves is to try to take it apart.
+          </p>
+          <p>
+            Outside work I write small, self-contained tools for problems I personally have. Two of them,
+            <a href="#projects">Lamplight</a> and <a href="#projects">RoadReady</a>, started exactly that way.
+          </p>
+        </div>
+
+        <dl class="facts">
+          <div><dt>Based in</dt><dd>Aachen, Germany</dd></div>
+          <div><dt>Studying</dt><dd>MS Data Science, RWTH Aachen</dd></div>
+          <div><dt>B.Tech</dt><dd>Computer Science, AKTU — 1.9</dd></div>
+          <div><dt>Now at</dt><dd>RWTH Aachen (HiWi)</dd></div>
+          <div><dt>Previously</dt><dd>trivago · Gemini Solutions</dd></div>
+          <div><dt>Certified</dt><dd>AWS SAA (2024–2027)</dd></div>
+          <div><dt>Email</dt><dd><a href="mailto:amlendushekhar828@gmail.com">amlendushekhar828@gmail.com</a></dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============================================== experience ====== -->
+    <section class="section wrap reveal" id="experience">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Experience</p>
+          <h2>Where I have shipped</h2>
+        </div>
+        <p class="section-note">Four roles, from a virtual web-design stint to a research tool in active use.</p>
+      </div>
+
+      <div class="timeline">
+
+        <article class="job" data-now="true">
+          <div class="job-head">
+            <h3>Scientific Assistant (HiWi)</h3>
+            <span class="job-org">RWTH Aachen University</span>
+            <span class="job-when">Jun 2026 — present</span>
+          </div>
+          <p class="job-place">Aachen, Germany · process mining research</p>
+          <ul class="bullets">
+            <li>Building <strong>ToTEM</strong>, a Temporal Object-Type Miner for analysing Object-Centric Event
+              Logs (OCEL).</li>
+            <li>Implemented Object-Centric Causal Nets: researchers discover an OCCN from an OCEL and explore it
+              as an interactive, auto-laid-out dashboard component.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Django</span>
+            <span class="tag">Claude Code</span><span class="tag">Object-Centric Process Mining</span>
+          </div>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <h3>Software Engineer (Working Student)</h3>
+            <span class="job-org">trivago</span>
+            <span class="job-when">Nov 2024 — Apr 2026</span>
+          </div>
+          <p class="job-place">Düsseldorf, Germany</p>
+          <ul class="bullets">
+            <li>Developed and maintained the administration platform managing advertisers and accommodations.</li>
+            <li>Built full-stack features in React, Node.js and TypeScript, using GraphQL to orchestrate data
+              across frontend, backend and external services.</li>
+            <li>Took part in architectural design sessions — evaluating tooling and aligning technical decisions
+              across the team.</li>
+            <li>Wrote Vitest unit tests for every functionality shipped, keeping quality measurable rather than
+              assumed.</li>
+            <li>Worked under strict review practice: SOX compliance checks, AI-assisted review with CodeRabbit,
+              and peer review. Used LLMs with MCP servers to speed up the day-to-day.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">TypeScript</span>
+            <span class="tag">GraphQL</span><span class="tag">Vitest</span><span class="tag">MySQL</span>
+            <span class="tag">Material-UI</span><span class="tag">MCP</span>
+          </div>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <h3>Software Engineer L1</h3>
+            <span class="job-org">Gemini Solutions</span>
+            <span class="job-when">Aug 2021 — Apr 2024</span>
+          </div>
+          <p class="job-place">Gurugram, India</p>
+          <ul class="bullets">
+            <li>Full-stack .NET developer on a US client's Management Information System, delivering against
+              their business objectives.</li>
+            <li>Built application and database components, then optimised and tested them across multiple
+              functional areas.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">C#</span><span class="tag">ASP.NET MVC</span><span class="tag">Entity Framework</span>
+            <span class="tag">LINQ</span><span class="tag">JavaScript</span><span class="tag">Azure</span>
+            <span class="tag">Socket.io</span><span class="tag">SSMS</span><span class="tag">MySQL</span>
+          </div>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <h3>Web Designer</h3>
+            <span class="job-org">AptCoder</span>
+            <span class="job-when">Oct 2020 — Jan 2021</span>
+          </div>
+          <p class="job-place">Remote</p>
+          <ul class="bullets">
+            <li>Designed and built AptCoder's user interface from scratch.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">HTML/CSS</span><span class="tag">JavaScript</span><span class="tag">Python 3</span>
+            <span class="tag">Django</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ================================================ projects ====== -->
+    <section class="section wrap reveal" id="projects">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Projects</p>
+          <h2>Things I built because I wanted them to exist</h2>
+        </div>
+        <p class="section-note">Four worth your time. The rest are tucked away at the bottom.</p>
+      </div>
+
+      <div class="project-grid">
+
+        <!-- RoadReady -->
+        <article class="card card-featured">
+          <div class="feat-main">
+            <span class="card-flag">Flagship</span>
+            <h3>RoadReady</h3>
+            <p class="card-sub">roadready.online · TypeScript</p>
+            <p>
+              A free, browser-based course for the German driving theory test. Most apps just drill the official
+              question catalogue at you — RoadReady <strong>teaches the rule first</strong>, then tests you on it,
+              following the 14-module curriculum German driving schools are legally required to teach.
+            </p>
+            <p>
+              Every traffic sign is drawn in code so it stays crisp at any size, and driving situations are
+              generated from data rather than described in a paragraph. The whole interface speaks all 13
+              languages the official exam is offered in — Arabic included, right-to-left and all — because it was
+              built for people learning to drive in a second language.
+            </p>
+            <p>
+              German is complete, down to the 30-question mock exam with the official error-point weighting.
+              France is next.
+            </p>
+          </div>
+          <div class="feat-side">
+            <div class="card-figures">
+              <div class="figure-chip"><b>92</b><span>lessons</span></div>
+              <div class="figure-chip"><b>289</b><span>questions</span></div>
+              <div class="figure-chip"><b>136</b><span>signs</span></div>
+              <div class="figure-chip"><b>13</b><span>languages</span></div>
+              <div class="figure-chip"><b>18</b><span>situations</span></div>
+              <div class="figure-chip"><b>6</b><span>themes</span></div>
+            </div>
+            <div class="tags">
+              <span class="tag tag-accent">TypeScript</span><span class="tag">React</span>
+              <span class="tag">i18n / RTL</span><span class="tag">SVG generation</span>
+              <span class="tag">Web Speech API</span><span class="tag">Accessibility</span>
+            </div>
+            <div class="card-links">
+              <a class="btn btn-ghost btn-sm" href="https://github.com/Vasu021/roadready.online" target="_blank"
+                rel="noopener">Source &amp; screenshots</a>
+              <span class="tag" title="The site is being prepared for launch">Launching soon</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Lamplight -->
+        <article class="card">
+          <span class="card-flag">Live</span>
+          <h3>Lamplight</h3>
+          <p class="card-sub">lamplight.ink · single-file HTML</p>
+          <p>
+            A one-page PDF reader that redraws papers in calm, low-glare colours. Reading white-background PDFs
+            is a small floodlight pointed at your face; Lamplight re-renders every page in a quieter palette,
+            with hue-preserving dark mode so a blue bar in a chart stays blue.
+          </p>
+          <p>
+            Open a file or paste an arXiv link, keep a shelf of papers with your place in each, and come back
+            tomorrow to find it waiting. Zero dependencies, zero build step, nothing uploaded anywhere — the
+            whole app is one <code>index.html</code>.
+          </p>
+          <div class="tags">
+            <span class="tag tag-accent">pdf.js</span><span class="tag">Vanilla JS</span>
+            <span class="tag">IndexedDB</span><span class="tag">Canvas</span><span class="tag">Zero deps</span>
+          </div>
+          <div class="card-links">
+            <a class="btn btn-primary btn-sm" href="https://lamplight.ink/" target="_blank" rel="noopener">Open
+              Lamplight</a>
+            <a class="btn btn-ghost btn-sm" href="https://github.com/Vasu021/Lamplight" target="_blank"
+              rel="noopener">Source</a>
+          </div>
+        </article>
+
+        <!-- Car Price Prediction -->
+        <article class="card">
+          <span class="card-flag">Live</span>
+          <h3>Car Price Prediction</h3>
+          <p class="card-sub">Google Cloud App Engine · Python</p>
+          <p>
+            A resale-price predictor for the Indian used-car market. Enter city, year of purchase, kilometres
+            driven, mileage, engine and power, and it estimates what the car is worth now.
+          </p>
+          <p>
+            The interesting half was upstream of the model: data cleaning, feature engineering and selection,
+            encoding categorical variables and handling missing data. A linear regression model is trained,
+            serialised with pickle, and served from Flask on GCP App Engine.
+          </p>
+          <div class="tags">
+            <span class="tag tag-accent">Machine Learning</span><span class="tag">Python</span>
+            <span class="tag">Flask</span><span class="tag">scikit-learn</span><span class="tag">GCP App Engine</span>
+          </div>
+          <div class="card-links">
+            <a class="btn btn-primary btn-sm" href="https://indigo-altar-308108.uc.r.appspot.com/" target="_blank"
+              rel="noopener">Try the predictor</a>
+            <a class="btn btn-ghost btn-sm" href="https://github.com/Vasu021/Car-Price-Prediction" target="_blank"
+              rel="noopener">Source</a>
+          </div>
+        </article>
+
+        <!-- Friday -->
+        <article class="card card-wide">
+          <span class="card-flag">In progress</span>
+          <h3>Friday</h3>
+          <p class="card-sub">macOS desktop app · Electron</p>
+          <p>
+            An AI screen guide. Ask it where something is — <em>"where are my playlists on YouTube?"</em> — and
+            it looks at your screen, moves a pointer to the sidebar, circles the thing, and explains it out
+            loud, then cleans up after itself.
+          </p>
+          <p>
+            Drawing on top of any other app needs a transparent, click-through, always-on-top window, which is
+            why it is a desktop app and not a website. Pluggable providers — Gemini, Ollama, Claude or OpenAI —
+            with the API key sealed in the macOS keychain.
+          </p>
+          <div class="tags">
+            <span class="tag tag-accent">Electron</span><span class="tag">Node.js</span>
+            <span class="tag">Vision LLMs</span><span class="tag">Speech</span><span class="tag">macOS APIs</span>
+          </div>
+          <div class="card-links">
+            <a class="btn btn-ghost btn-sm" href="https://github.com/Vasu021/Friday" target="_blank"
+              rel="noopener">Source</a>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- archive -->
+      <div class="archive">
+        <button class="btn btn-quiet archive-toggle" id="archive-toggle" type="button" aria-expanded="false"
+          aria-controls="archive-panel">
+          <span id="archive-label">Show earlier &amp; smaller projects (7)</span>
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="6 9 12 15 18 9" />
+          </svg>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#images1">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
+        <div class="archive-panel" id="archive-panel" hidden>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
+          <a class="mini" href="https://github.com/Vasu021/connect.io" target="_blank" rel="noopener">
+            <strong>connect.io
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 17 17 7M9 7h8v8" />
+              </svg>
+            </strong>
+            <em>TypeScript · 2026</em>
+            <span>A real-time two-player word-match game. React + Vite front end, Express and Socket.IO back end,
+              15-second rounds, friend requests and a leaderboard.</span>
+          </a>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Projects
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#projects">Base Converter</a>
-                        <a class="dropdown-item" href="#projects">MsgC</a>
-                        <a class="dropdown-item" href="#projects">BMI</a>
-                        <a class="dropdown-item" href="#projects">Base Converter Web App</a>
-                        <a class="dropdown-item" href="#projects">Kavya Khand</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#projects">Load more...</a>
-                    </div>
-                </li>
+          <a class="mini" href="https://github.com/Vasu021/Minotaur" target="_blank" rel="noopener">
+            <strong>Minotaur
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 17 17 7M9 7h8v8" />
+              </svg>
+            </strong>
+            <em>Security research · 2026</em>
+            <span>A command-and-control framework written to understand how red-team tooling and the detections
+              built against it actually work. Study project, work in progress.</span>
+          </a>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact-me">Contact</a>
-                </li>
-            </ul>
+          <a class="mini" href="https://github.com/Vasu021/chess-timer" target="_blank" rel="noopener">
+            <strong>Chess Timer
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 17 17 7M9 7h8v8" />
+              </svg>
+            </strong>
+            <em>Embedded C · IoT</em>
+            <span>A touch-free chess clock on an Arduino UNO — wave a hand over the ultrasonic sensor to pass the
+              turn, times on a 16×2 LCD.</span>
+          </a>
+
+          <a class="mini" href="https://vasu021.github.io/KavyaKhand/main.html" target="_blank" rel="noopener">
+            <strong>Kavya Khand
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 17 17 7M9 7h8v8" />
+              </svg>
+            </strong>
+            <em>Web · personal</em>
+            <span>A home on the web for the Hindi poetry and short stories of Ratna Shrivastava — my mother —
+              collecting work published in Sarita, Navbharat Times and Amar Ujala.</span>
+          </a>
+
+          <a class="mini" href="https://vasu021.github.io/BaseConverter/main.html" target="_blank" rel="noopener">
+            <strong>Base Converter
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 17 17 7M9 7h8v8" />
+              </svg>
+            </strong>
+            <em>Web · utility</em>
+            <span>Convert a number from any base to any other base, with the arithmetic shown rather than
+              hidden.</span>
+          </a>
+
+          <a class="mini" href="https://vasu021.github.io/Online-Dice/" target="_blank" rel="noopener">
+            <strong>Online Dice
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 17 17 7M9 7h8v8" />
+              </svg>
+            </strong>
+            <em>Web · utility</em>
+            <span>Roll one to six dice in the browser. Built for the evening someone lost the dice from the
+              Ludo box.</span>
+          </a>
+
+          <a class="mini" href="https://github.com/Vasu021/angular-login-register" target="_blank" rel="noopener">
+            <strong>Angular Auth Starter
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 17 17 7M9 7h8v8" />
+              </svg>
+            </strong>
+            <em>TypeScript · 2022</em>
+            <span>A login and registration flow in Angular — guards, reactive forms and validation, written while
+              learning the framework properly.</span>
+          </a>
 
         </div>
-    </nav>
+      </div>
+    </section>
 
-
-    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="cybersec.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption">
-                    <h4><span style="background-color:black;border:solid black;border-radius:10px;">&nbsp Cyber Security Specialist &nbsp</span></h4>
-                    <p class="d-none d-md-block"><span style="background-color:black;border:solid black;border-radius:10px;"> &nbspSecurity first!!! &nbsp</span></p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="app.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption">
-                    <h4><span style="background-color:black;border:solid black;border-radius:10px;">&nbsp App Developer &nbsp</span></h4>
-                    <p class="d-none d-md-block"><span style="background-color:black;border:solid black;border-radius:10px;">&nbsp Developing Apps is my hobby. Check out my Projects shown below. &nbsp</span></p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="webs.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption">
-                    <h4><span style="background-color:black;border:solid black;border-radius:10px;">&nbsp Web Designer &nbsp</span></h4>
-                    <p class="d-none d-md-block"><span style="background-color:black;border:solid black;border-radius:10px;">&nbsp Building a website is easy. Designing one takes skill. &nbsp</span></p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="iot.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption">
-                    <h4><span style="background-color:black;border:solid black;border-radius:10px;">&nbsp Interested in IoT and Automation &nbsp</span></h4>
-                    <p class="d-none d-md-block"><span style="background-color:black;border:solid black;border-radius:10px;">&nbsp You are either the one that creates the Automation or you are getting
-                        automated. &nbsp</span></p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="marvel1.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption">
-                    <h4><span style="background-color:black;border:solid black;border-radius:10px;">&nbsp Marvel Fan &nbsp</span></h4>
-                    <p class="d-none d-md-block"><span style="background-color:black;border:solid black;border-radius:10px;">&nbsp I feel that Marvel movies are really fascinating. Must watch movies for
-                        person like me. &nbsp</span></p>
-                </div>
-            </div>
+    <!-- ================================================== skills ====== -->
+    <section class="section wrap reveal" id="skills">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Toolkit</p>
+          <h2>What I work with</h2>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+        <p class="section-note">Grouped by how often I reach for them, not by how impressive they look in a list.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-block">
+          <h3>Languages</h3>
+          <div class="tags">
+            <span class="tag tag-accent">TypeScript</span><span class="tag tag-accent">Python</span>
+            <span class="tag tag-accent">C#</span><span class="tag">JavaScript</span>
+            <span class="tag">Java</span><span class="tag">SQL</span><span class="tag">C</span>
+          </div>
+        </div>
+
+        <div class="skill-block">
+          <h3>Frameworks &amp; runtime</h3>
+          <div class="tags">
+            <span class="tag tag-accent">React</span><span class="tag tag-accent">Node.js</span>
+            <span class="tag">.NET / ASP.NET MVC</span><span class="tag">Angular</span>
+            <span class="tag">Django</span><span class="tag">Flask</span><span class="tag">Entity Framework</span>
+          </div>
+        </div>
+
+        <div class="skill-block">
+          <h3>Data &amp; APIs</h3>
+          <div class="tags">
+            <span class="tag tag-accent">GraphQL</span><span class="tag">MySQL</span><span class="tag">SSMS</span>
+            <span class="tag">Process mining (OCEL)</span><span class="tag">scikit-learn</span>
+            <span class="tag">pandas</span><span class="tag">Feature engineering</span>
+          </div>
+        </div>
+
+        <div class="skill-block">
+          <h3>Cloud &amp; platform</h3>
+          <div class="tags">
+            <span class="tag tag-accent">AWS (EC2, S3, RDS, VPC, IAM)</span><span class="tag">Azure</span>
+            <span class="tag">GCP App Engine</span><span class="tag">Linux</span><span class="tag">Git / GitHub</span>
+          </div>
+        </div>
+
+        <div class="skill-block">
+          <h3>Quality &amp; practice</h3>
+          <div class="tags">
+            <span class="tag tag-accent">Vitest</span><span class="tag">Code review (SOX)</span>
+            <span class="tag">Software architecture</span><span class="tag">CodeRabbit</span>
+            <span class="tag">Claude Code</span><span class="tag">MCP</span>
+          </div>
+        </div>
+
+        <div class="skill-block">
+          <h3>Security</h3>
+          <div class="tags">
+            <span class="tag tag-accent">OWASP Top 10</span><span class="tag">Kali Linux</span>
+            <span class="tag">Burp Suite</span><span class="tag">nmap</span><span class="tag">Wireshark</span>
+            <span class="tag">Metasploit</span><span class="tag">OSINT</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================= credentials ====== -->
+    <section class="section wrap reveal" id="credentials">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Security &amp; Cloud</p>
+          <h2>Certified, and still climbing boxes</h2>
+        </div>
+        <p class="section-note">One formal credential, one hobby that refuses to stay a hobby.</p>
+      </div>
+
+      <div class="cred-grid">
+
+        <article class="cred">
+          <div class="cred-top">
+            <div class="cred-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#9a5a2c" stroke-width="1.8" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 15a4 4 0 0 1 .6-7.95 5.5 5.5 0 0 1 10.5-1.3A4.5 4.5 0 0 1 20 15H4Z" />
+                <path d="M8 19h8M12 15v4" />
+              </svg>
+            </div>
+            <div>
+              <h3>AWS Certified Solutions Architect</h3>
+              <p class="cred-meta">ASSOCIATE · AUG 2024 — AUG 2027</p>
+            </div>
+          </div>
+          <p>
+            Designing secure, high-performing, resilient and cost-optimised architectures on AWS — EC2, S3, RDS,
+            VPC, IAM and the rest of the core service set, applied to scalable, fault-tolerant solutions.
+          </p>
+          <p>
+            The part that stuck with me most is the cost dimension: optimising a workload for spend without
+            quietly trading away security or availability.
+          </p>
+          <p class="validation">Validation number · 29dc9cae60fa4208884a046c57792b41</p>
+        </article>
+
+        <article class="cred">
+          <div class="cred-top">
+            <div class="cred-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#2f6a5c" stroke-width="1.8" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="13" rx="2" />
+                <path d="M8 21h8M12 17v4" />
+                <path d="m8.5 8.5 2 2-2 2M13 12.5h3" />
+              </svg>
+            </div>
+            <div>
+              <h3>TryHackMe</h3>
+              <p class="cred-meta">LEVEL 8 · H4CK3R · PEAK RANK 122 IN INDIA</p>
+            </div>
+          </div>
+          <p>
+            Years of working through boxes with Kali, nmap, Burp Suite, Wireshark, Metasploit and a lot of
+            patience — network security, web exploitation and OSINT.
+          </p>
+          <div class="rank-row">
+            <div class="rank"><b>44</b><span>machines pwned</span></div>
+            <div class="rank"><b>12</b><span>skill badges</span></div>
+            <div class="rank"><b>8</b><span>level</span></div>
+            <div class="rank"><b>#122</b><span>peak, India</span></div>
+          </div>
+          <div class="card-links">
+            <a class="btn btn-ghost btn-sm" href="https://tryhackme.com/p/Vasu021" target="_blank"
+              rel="noopener">View profile</a>
+            <a class="btn btn-ghost btn-sm" href="https://github.com/Vasu021/tryHackMe" target="_blank"
+              rel="noopener">Write-ups</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ================================================= beyond ======= -->
+    <section class="section wrap reveal" id="beyond">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Beyond the editor</p>
+          <h2>The rest of it</h2>
+        </div>
+      </div>
+
+      <div class="beyond-grid">
+
+        <div class="beyond">
+          <h3>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path d="m16 18 2 3H6l2-3M9 18h6l1-4H8l1 4ZM12 3a3 3 0 0 0-3 3c0 1 .5 1.7 1 2l-2 2v2h8v-2l-2-2c.5-.3 1-1 1-2a3 3 0 0 0-3-3Z" />
+            </svg>
+            Chess
+          </h3>
+          <p>1500+ on Chess.com as <strong>Vasu008</strong>. Mostly rapid, occasionally over the board, always
+            one move short of where I meant to be.</p>
+        </div>
+
+        <div class="beyond">
+          <h3>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path d="m9 11 3 3L22 4" />
+              <path d="M21 12a9 9 0 1 1-6.2-8.6" />
+            </svg>
+            Problem solving
+          </h3>
+          <p>150+ problems on LeetCode and a 6-star rating on HackerRank. Hackathons when they come up.</p>
+          <div class="tags">
+            <a class="tag" href="https://leetcode.com/u/Vasu021/" target="_blank" rel="noopener">LeetCode · Vasu021</a>
+            <a class="tag" href="https://www.hackerrank.com/profile/CaptainShekhar" target="_blank"
+              rel="noopener">HackerRank · CaptainShekhar</a>
+            <a class="tag" href="https://app.datawars.io/" target="_blank" rel="noopener">DataWars</a>
+          </div>
+        </div>
+
+        <div class="beyond">
+          <h3>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="9" />
+              <path d="M3 12h18M12 3c2.5 2.7 2.5 15.3 0 18M12 3c-2.5 2.7-2.5 15.3 0 18" />
+            </svg>
+            Languages
+          </h3>
+          <div class="lang-row">
+            <div><b>Hindi</b><span>Native</span></div>
+            <div class="meter"><i style="width:100%"></i></div>
+          </div>
+          <div class="lang-row">
+            <div><b>English</b><span>C1 · IELTS 7.5</span></div>
+            <div class="meter"><i style="width:88%"></i></div>
+          </div>
+          <div class="lang-row">
+            <div><b>German</b><span>A2 · learning</span></div>
+            <div class="meter"><i style="width:34%"></i></div>
+          </div>
+        </div>
+
+        <div class="beyond">
+          <h3>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="9" />
+              <path d="M12 3c3 3 3 15 0 18M3.5 9h17M3.5 15h17" />
+            </svg>
+            Sport
+          </h3>
+          <p>Badminton, cricket, tennis and softball — a lifelong habit of needing to be outside and moving for
+            part of every week.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================ contact ======= -->
+    <section class="section wrap reveal" id="contact">
+      <div class="contact">
+        <p class="eyebrow" style="justify-content:center">Contact</p>
+        <h2>Let's talk</h2>
+        <p>
+          Hiring, collaborating, or just want to argue about whether object-centric process mining is the
+          future — my inbox is open and I answer.
+        </p>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:amlendushekhar828@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m2 7 10 7 10-7" />
+            </svg>
+            amlendushekhar828@gmail.com
+          </a>
+          <button class="btn btn-ghost copy-btn" id="copy-email" type="button"
+            data-email="amlendushekhar828@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <rect x="9" y="9" width="12" height="12" rx="2" />
+              <path d="M5 15V5a2 2 0 0 1 2-2h10" />
+            </svg>
+            <span id="copy-label">Copy address</span>
+          </button>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/amlendu-shekhar" target="_blank"
+            rel="noopener">LinkedIn</a>
+          <a class="btn btn-ghost" href="https://github.com/Vasu021" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn btn-quiet" href="Amlendu_s_Resume.pdf" target="_blank" rel="noopener">Résumé (PDF)</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================================================== footer ====== -->
+  <footer class="foot">
+    <div class="wrap foot-inner">
+      <p>© <span id="year">2026</span> Amlendu Shekhar · designed &amp; built in Aachen</p>
+      <div class="foot-links">
+        <a href="https://github.com/Vasu021" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/amlendu-shekhar" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://tryhackme.com/p/Vasu021" target="_blank" rel="noopener">TryHackMe</a>
+        <a href="mailto:amlendushekhar828@gmail.com">Email</a>
+        <a href="#top">Back to top ↑</a>
+      </div>
     </div>
+  </footer>
 
-    <div class="about" id="about">
-
-        <div class="row row-cols-1 row-cols-md-2">
-            <div class="col about-image">
-
-            </div>
-            <div class="col">
-                <div class="about-title text-center">
-                    <p>About me</p>
-                </div>
-                <div>
-                    <p><strong>Name :</strong> Amlendu Shekhar</p>
-                    <p><strong>E-mail :</strong> amlendushekharcss_cse18_its_edu_in</p>
-                    <p><strong>Phone :</strong> 9555290297</p>
-                    <p><strong>College:</strong> I.T.S. Engineering College</p>
-                    <p><strong>Course :</strong> B.Tech (2018-22) [ CSE ]</p>
-                    
-                    <p><br>Hello Earthlings, I am Amlendu Shekhar from Ghaziabad, UP. I come from a nuclear family.
-                        I am currently persuing B.Tech in Computer Science and Engineering from ITS Engineering College,
-                        Greater Noida.
-                    </p>
-                    <p>
-                        I am interested in Science and Technology. Wonders of Science and Engineering has always
-                        fascinated me.
-                        And I am enjoying each and every moment of my Engineering Career.
-                    </p>
-                    <p>
-                        My hobbies are playing Mouth Organ, reading, singing and playing outdoor sports. I've been
-                        interested in sports since my childhood. I play sports like Lawn Tennis,
-                        Badminton, TT and Cricket. I am also very interested in playing Chess.
-                    </p>
-                </div>
-                <div class="dow-Resume">
-                    <a href="https://itseduin-my.sharepoint.com/:f:/g/personal/amlendushekharcss_cse18_its_edu_in/Eh3VtC7ZvBdOjthLeBdrLrQBeUHYPtKd23c2fp3Uaa8u8w?e=oBKMA0"
-                        class="text-dark">Download Resume</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="skills" id="skills">
-        <div class="jumbotron jumbotron-fluid skills1">
-            <div class="container">
-                <h1 class="display-4">Interests and Skills</h1>
-                <div class="row">
-                    <div class="col lead">
-                        <p>
-                        <h3>Languages</h3>
-                        </p>
-                        <p>C</p>
-                        <p>Java</p>
-                        <p>Python</p>
-                        <p>Embedded C</p>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>JavaScript</p>
-                    </div>
-                    <div class="col lead">
-                        <p>
-                        <h3>Skills</h3>
-                        </p>
-                        <p>Programming</p>
-                        <p>Problem Solving</p>
-                        <p>Ethical Hacking</p>
-                        <p>Software Development</p>
-                        <p>Android Application Development</p>
-                        <p>Web Development</p>
-                        <p>Embedded System Programming</p>
-                    </div>
-                    <div class="col lead">
-                        <p>
-                        <h3>Technologies</h3>
-                        </p>
-                        <p>Cybersecurity</p>
-                        <p>Internet of Things</p>
-                        <p>Web Designing</p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div  class="thm1" style="width:260px;margin:auto;align-items: center;border: solid 2px black;margin-top: 40px;margin-bottom: 40px;">
-        
-    
-        <p style="text-align: center;font-weight: 600;">My TryHackMe profile</p>
-        <script src="https://tryhackme.com/badge/509035"></script>
-     
-    
-    </div>
-
-    <div class="pro-div">
-        <div class="projects" id="projects">
-            <div class="proText">
-                <p>Projects</p>
-            </div>
-
-            <div class="row row-cols-1 row-cols-md-3">
-                <div class="col">
-                    <div class="card border-success">
-
-                        <img src="base.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-primary">Base Converter</h5>
-                            <p class="card-text">Can use this application to convert a number of any base to the
-                                number
-                                of any
-                                another
-                                base.</p>
-                            <a href="https://itseduin-my.sharepoint.com/:f:/g/personal/amlendushekharcss_cse18_its_edu_in/EnJacT0yKihJlvooH94spMUB_Yjq8ZRBjWIcf5KFu2wabA?e=Rw1Sz5"
-                                class="btn btn-primary">Download</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card border-success">
-                        <img src="crypt.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-primary">MsgC</h5>
-                            <p class="card-text">Just a fun application. Encrypt your message using a private shared
-                                kry
-                                and
-                                enjoy!!!</p>
-                            <a href="https://itseduin-my.sharepoint.com/:f:/g/personal/amlendushekharcss_cse18_its_edu_in/EgRxi8YhxxhJiuXvMJfageQBlFS2xIXaQgfuNlkmBte7WA?e=MmmKMV"
-                                class="btn btn-primary">Download</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col">
-                    <div class="card border-success">
-
-                        <img src="base.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-primary">Base Converter Web App</h5>
-                            <p class="card-text">Can use this application to convert a number of any base to the
-                                number
-                                of any
-                                another
-                                base.</p>
-                            <a href="https://vasu021.github.io/BaseConverter/main.html" class="btn btn-primary">Go to
-                                Website</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card border-success">
-
-                        <img src="chess.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-primary">Chess Timer</h5>
-                            <p class="card-text">IoT based project. A chess timer made using Arduino UNO, Ultrasonic Sensor and LCD Display 16x2.</p>
-                            <a href="https://github.com/Vasu021/chess-timer.git" class="btn btn-primary">Github link</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card border-success">
-
-                        <img src="poetry.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-primary">Kavya Khand</h5>
-                            <p class="card-text">Collection of all the poetries and stories written by my mother.</p>
-                            <a href="https://vasu021.github.io/KavyaKhand/main.html" class="btn btn-primary">Go to
-                                Website</a>
-                        </div>
-                    </div>
-                </div>
-
-
-
-            </div>
-
-        </div>
-    </div>
-
-
-
-
-    <div class="card mb-3 contact-div" id="contact-me">
-        <div class="row no-gutters">
-            <div class="col-md-4">
-                <img src="face.png" class="card-img" alt="...">
-            </div>
-            <div class="col-md-8 review_section">
-                <div class="card-body">
-                    <h5 class="card-title">Hire me!!! Reviews!!! Suggestions!!! Need help!!!</h5>
-                    <p class="card-text">Please contact</p>
-                    <a href="https://www.facebook.com/profile.php?id=100009670151360"><img src="logos/fb.png"
-                            height="40" width="40" alt=""></a>
-                    <a href="https://www.instagram.com/vasu_shekhar_srivastav/"><img src="logos/ig.png" height="40"
-                            width="40" alt=""></a>
-                    <a href="https://github.com/Vasu021"><img src="logos/git.png" height="40" width="40" alt=""></a>
-                    <a href="https://twitter.com/VSU38001685"><img src="logos/twittwe.png" height="40" width="40"
-                            alt=""></a>
-                    <a href="https://www.linkedin.com/in/amlendu-shekhar-7aa6251a4/"><img src="logos/ld.png" height="40"
-                            width="40" alt=""></a>
-
-                    <div class="dropdown-divider"></div>
-                    <p>Or feel free to leave a message.</p>
-                    <form action="mailto:amlendushekharcss_cse18@its.edu.in" id="contact-form" method="post">
-                        <div class="contact-input">
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Name">
-                        </div>
-                        <div class="contact-input">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter e-mail">
-                        </div>
-                        <div class="contact-input">
-                            <input type="number" class="form-control" id="mobile" name="mobile"
-                                placeholder="Enter mobile number">
-                        </div>
-                        <div class="contact-input">
-                            <textarea class="form-control" rows="4" id="message" name="message"></textarea>
-                        </div>
-
-                        <input type="submit" class="submit" value="SEND MESSAGE">
-                    </form>
-
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-    </div>
-
-    <footer class="foot" id="foot">
-        <div class="row footer-upper">
-            <div class="footer-logo">
-                <img src="i1.png" width="50" height="50" class="d-inline-block align-top" alt="" loading="lazy">
-                <a class="navbar-brand" href="#">@Shekhar</a>
-            </div>
-
-        </div>
-        <div class="row">
-
-            <div class="col text-center text-light">
-                <p>Email: <br><a href="">amlendushekharcss_cse18_its_edu_in</a></p>
-            </div>
-
-        </div>
-        <div class="row">
-
-            <div class="col text-center text-light">
-                <p>Designed and Developed by:<br> <a href="">Amlendu Shekhar</a></p>
-            </div>
-
-        </div>
-        <div class="row">
-
-            <div class="col text-center text-light">
-                <a href="https://www.facebook.com/profile.php?id=100009670151360"><img src="logos/fb.png" height="40"
-                        width="40" alt=""></a>
-                <a href="https://www.instagram.com/vasu_shekhar_srivastav/"><img src="logos/ig.png" height="40"
-                        width="40" alt=""></a>
-                <a href="https://github.com/Vasu021"><img src="logos/git.png" height="40" width="40" alt=""></a>
-                <a href="https://twitter.com/VSU38001685"><img src="logos/twittwe.png" height="40" width="40"
-                        alt=""></a>
-                <a href="https://www.linkedin.com/in/amlendu-shekhar-7aa6251a4/"><img src="logos/ld.png" height="40"
-                        width="40" alt=""></a>
-
-            </div>
-
-        </div>
-
-
-    </footer>
-
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-        
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+  <script src="assets/main.js" defer></script>
 </body>
 
 </html>
