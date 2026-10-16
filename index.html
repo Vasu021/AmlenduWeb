@@ -426,27 +426,27 @@
           </div>
         </article>
 
-        <!-- Friday -->
+        <!-- connect.io -->
         <article class="card card-wide">
           <span class="card-flag">In progress</span>
-          <h3>Friday</h3>
-          <p class="card-sub">macOS desktop app · Electron</p>
+          <h3>connect.io</h3>
+          <p class="card-sub">Real-time multiplayer game · TypeScript</p>
           <p>
-            An AI screen guide. Ask it where something is — <em>"where are my playlists on YouTube?"</em> — and
-            it looks at your screen, moves a pointer to the sidebar, circles the thing, and explains it out
-            loud, then cleans up after itself.
+            A word game for up to eight people. Everyone types one word blind, and when the fifteen seconds are
+            up they all land at once — match somebody and you both leave the circle.
           </p>
           <p>
-            Drawing on top of any other app needs a transparent, click-through, always-on-top window, which is
-            why it is a desktop app and not a website. Pluggable providers — Gemini, Ollama, Claude or OpenAI —
-            with the API key sealed in the macOS keychain.
+            The catch: <strong>a word that has been played can never be played again, by anyone</strong>. Nobody
+            can fall back on the obvious, so each round the group has to find a new middle —
+            <code>king → messi → fifa</code>.
           </p>
           <div class="tags">
-            <span class="tag tag-accent">Electron</span><span class="tag">Node.js</span>
-            <span class="tag">Vision LLMs</span><span class="tag">Speech</span><span class="tag">macOS APIs</span>
+            <span class="tag tag-accent">TypeScript</span><span class="tag">React 19</span>
+            <span class="tag">Socket.IO</span><span class="tag">Express 5</span><span class="tag">Prisma</span>
+            <span class="tag">PostgreSQL</span>
           </div>
           <div class="card-links">
-            <a class="btn btn-ghost btn-sm" href="https://github.com/Vasu021/Friday" target="_blank"
+            <a class="btn btn-ghost btn-sm" href="https://github.com/Vasu021/connect.io" target="_blank"
               rel="noopener">Source</a>
           </div>
         </article>
@@ -457,7 +457,7 @@
       <div class="archive">
         <button class="btn btn-quiet archive-toggle" id="archive-toggle" type="button" aria-expanded="false"
           aria-controls="archive-panel">
-          <span id="archive-label">Show earlier &amp; smaller projects (7)</span>
+          <span id="archive-label">Show earlier &amp; smaller projects (5)</span>
           <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2"
             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <polyline points="6 9 12 15 18 9" />
@@ -466,16 +466,17 @@
 
         <div class="archive-panel" id="archive-panel" hidden>
 
-          <a class="mini" href="https://github.com/Vasu021/connect.io" target="_blank" rel="noopener">
-            <strong>connect.io
+          <a class="mini" href="https://github.com/Vasu021/Friday" target="_blank" rel="noopener">
+            <strong>Friday
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                 stroke-linejoin="round" aria-hidden="true">
                 <path d="M7 17 17 7M9 7h8v8" />
               </svg>
             </strong>
-            <em>TypeScript · 2026</em>
-            <span>A real-time two-player word-match game. React + Vite front end, Express and Socket.IO back end,
-              15-second rounds, friend requests and a leaderboard.</span>
+            <em>Electron · macOS</em>
+            <span>An AI screen guide. Ask where something is and it looks at your screen, moves a pointer to it,
+              circles the thing and explains it out loud — a transparent, click-through, always-on-top
+              window.</span>
           </a>
 
           <a class="mini" href="https://github.com/Vasu021/chess-timer" target="_blank" rel="noopener">
@@ -485,9 +486,10 @@
                 <path d="M7 17 17 7M9 7h8v8" />
               </svg>
             </strong>
-            <em>Embedded C · IoT</em>
-            <span>A touch-free chess clock on an Arduino UNO — wave a hand over the ultrasonic sensor to pass the
-              turn, times on a 16×2 LCD.</span>
+            <em>Embedded C · Arduino</em>
+            <span>A chess clock with no buttons — an Arduino UNO and an ultrasonic sensor inside a phone box.
+              Tip it onto one side to stop your clock and start your opponent&rsquo;s, and tip it back to hand
+              the turn over.</span>
           </a>
 
           <a class="mini" href="https://vasu021.github.io/KavyaKhand/main.html" target="_blank" rel="noopener">

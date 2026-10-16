@@ -46,7 +46,7 @@ architecture in the middle, and the interface people actually touch.
 | **[RoadReady](https://github.com/Vasu021/roadready.online)** | A free course for the German driving theory test — 92 lessons, 289 questions, 136 signs, 13 languages | TypeScript, React |
 | **[Lamplight](https://lamplight.ink/)** | A one-page PDF reader that redraws papers in calm, low-glare colours | pdf.js, vanilla JS, zero deps |
 | **[Car Price Prediction](https://indigo-altar-308108.uc.r.appspot.com/)** | Resale-price predictor for the Indian used-car market | Python, Flask, scikit-learn, GCP |
-| **[Friday](https://github.com/Vasu021/Friday)** | A macOS AI screen guide that points at and draws on your screen | Electron, Node.js, vision LLMs |
+| **[connect.io](https://github.com/Vasu021/connect.io)** | A real-time word game for up to eight players — everyone plays one word blind, and no word can ever be played twice | TypeScript, React, Socket.IO, Postgres |
 
 ## Toolkit
 
